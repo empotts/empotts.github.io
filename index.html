@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>WIP Portfolio Page</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    <header>
-      <nav id="navbar" class="nav">
-        <ul class="nav-list">
-          <li>
-            <a href="#welcome-section">About</a>
-          </li>
-          <li>
-            <a href="#projects">Work</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-  
-    </header>
-    <div id="welcome-section">
-        <h1><a id="profile-link" href="https://github.com/empotts" target="_blank">Ethan Potts</a></h1>
+<head>
+  <meta charset="UTF-8">
+  <title>WIP Portfolio Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/d22bf855fe.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+
+  </header>
+
+
+  <div id="welcome-section" class="welcome-section">
+    <h1><a id="profile-link" href="https://github.com/empotts" target="_blank">Ethan Potts</a></h1>
+  </div>
+
+  <div id="projects">
+    <h1>Projects</h1>
+    <h2 class="project-tile">
+      Photography Website</h2>
+    <a class="project-tile" href="https://github.com/empotts">
+      Photography Website
+    </a>
+
+    <div class="project-grid">
+      <a href="https://empotts.github.io/imahara-tribute-page/" target="_blank" class="project project-tile">
+        <img class="project-image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project" />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
     </div>
-    <div id="projects">
-        <h1>Projects</h1>
-       <h2 class="project-tile"> 
-        Photography Website</h2> 
-        <a class="project-tile" href="https://github.com/empotts">
-            Photography Website
-        </a>
-    
+
+
+
+  </div>
+
+
+
+  <div id="contact" class="contact">
+    <div>
+      <h1>Get in touch!</h1>
+      <p>Or explore my other platforms!</p>
     </div>
-  </body>
+    <div class="contact-links">
+      <a href="https://github.com/empotts" target="_blank" class="contact-button">
+        <i class="fa-brands fa-github"></i>
+        GitHub
+      </a>
+      <a href="https://www.freecodecamp.org/empotts" target="_blank" class="contact-button">
+        <i class="fa-brands fa-free-code-camp"></i>
+
+        freeCodeCamp
+      </a>
+      <a href="mailto:ethanmpotts@gmail.com" target="_blank" class="contact-button">
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn
+      </a>
+      <a href="mailto:ethanmpotts@gmail.com" target="_blank" class="contact-button">
+        <i class="fa-solid fa-envelope"></i>
+        Email
+      </a>
+
+      <a href="https://pottsshotts.smugmug.com/" target="_blank" class="contact-button">
+        <i class="fa-solid fa-camera"></i>
+        Photography
+      </a>
+    </div>
+  </div>
+
+
+  <footer>
+
+  </footer>
+
+</body>
+
 </html>
