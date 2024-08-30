@@ -1,2 +1,2 @@
 # empotts.github.io
-Testing GitHub Pages
+Testing GitHub Pages for personal portfolio
